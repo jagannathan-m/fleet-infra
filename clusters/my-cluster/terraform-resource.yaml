@@ -7,6 +7,7 @@ spec:
   interval: 1m
   approvePlan: auto
   path: ./
+  storeReadablePlan: json
   sourceRef:
     kind: GitRepository
     name: helloworld
